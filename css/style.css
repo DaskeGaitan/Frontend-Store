@@ -53,6 +53,7 @@ h1, h2, h3 {
     font-family: "Harmonia San";
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+    line-height: 4rem;
 }
 
 h1 {
