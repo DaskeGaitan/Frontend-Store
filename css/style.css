@@ -49,7 +49,9 @@ img {
 h1, h2, h3 {
     text-align: center;
     color: var(--secundario);
-    font-family: var(--fuentePrincipal);
+    font-family: "Harmonia San";
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 
 h1 {
@@ -98,10 +100,15 @@ h2 {
 }
 
 .navegacion__enlace {
-    font-family: var(--fuentePrincipal);
+    font-family: "Harmonia San";
     color: var(--blanco);
     font-size: 3rem;
     margin-right: 2rem;
+    text-transform: uppercase;
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
 }
 
 .navegacion__enlace:last-of-type {
@@ -128,6 +135,10 @@ h2 {
     background-color: var(--primarioOscuro);
     padding: 1rem;
     border-radius: 1rem;
+}
+
+.contenedor__h1 {
+    letter-spacing: 0.2rem;
 }
 
 .producto__imagen {
