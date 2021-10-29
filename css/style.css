@@ -29,8 +29,9 @@ body{
 
 p{
     font-size: 1.8rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Harmonia San";
     color: var(--blanco);
+    letter-spacing: 0.1rem;
 }
 
 a{
